@@ -1,32 +1,78 @@
+import jaimeBecerraImage from "../assets/img/doctors/JaimeBecerraStaff.jpg";
+import raulAliagaImage from "../assets/img/doctors/RaulAliagaStaff.jpg";
+import stalinaAliagaImage from "../assets/img/doctors/StalinaAliagaStaff.jpg";
+
 export const heroImage =
-  "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80";
+  "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1400&q=80";
+export const heroBackgroundVariant = "medical-grid";
 
 export const services = [
   {
-    id: "landingArchitecture",
+    id: "generalMedicine",
     image:
-      "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=900&q=80",
   },
   {
-    id: "designTokens",
+    id: "generalSurgery",
     image:
-      "https://images.unsplash.com/photo-1556228578-dd6f9e2c3c8d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=900&q=80",
   },
   {
-    id: "reusableComponents",
+    id: "traumatology",
     image:
-      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=900&q=80",
   },
   {
-    id: "responsiveFirst",
+    id: "pediatrics",
     image:
-      "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80",
   },
   {
-    id: "showcasePage",
+    id: "gynecology",
     image:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=900&q=80",
+  },
+  {
+    id: "neurology",
+    image:
+      "https://images.unsplash.com/photo-1512678080530-7760d81faba6?auto=format&fit=crop&w=900&q=80",
+  },
+  {
+    id: "gastroenterology",
+    image:
+      "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=900&q=80",
+  },
+  {
+    id: "psychology",
+    image:
+      "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=900&q=80",
   },
 ];
 
-export const testimonials = [{ id: "projectOwner" }, { id: "frontendDeveloper" }, { id: "freelanceTeam" }];
+export const staffMembers = [
+  {
+    id: "stalinAliaga",
+    image: stalinaAliagaImage,
+  },
+  {
+    id: "raulAliaga",
+    image: raulAliagaImage,
+  },
+  {
+    id: "jaimeBecerra",
+    image: jaimeBecerraImage,
+  },
+];
+
+export const trustStats = [
+  { id: "years" },
+  { id: "patients" },
+  { id: "specialties" },
+  { id: "support" },
+];
+
+export const careSteps = [{ id: "step1" }, { id: "step2" }, { id: "step3" }, { id: "step4" }];
+
+export const faqItems = [{ id: "faq1" }, { id: "faq2" }, { id: "faq3" }, { id: "faq4" }];
+
+export const testimonials = [{ id: "gloriaR" }, { id: "diegoT" }, { id: "andreaM" }];

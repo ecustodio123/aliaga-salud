@@ -28,15 +28,31 @@ function MainNavDropdown({ label, options }) {
   }, []);
 
   return (
-    <div className={`main-nav__item ${open ? "is-open" : ""}`} ref={wrapperRef}>
-      <button className="main-nav__trigger" type="button" onClick={() => setOpen((prev) => !prev)}>
+    <div
+      className={`main-nav__item ${open ? "is-open" : ""}`.trim()}
+      ref={wrapperRef}
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
+      <button
+        className="main-nav__trigger"
+        type="button"
+        aria-expanded={open}
+        onClick={() => setOpen((prev) => !prev)}
+      >
         {label}
         <KeyboardArrowDownIcon sx={{ fontSize: 14 }} />
       </button>
       {open ? (
         <div className="main-nav__menu" role="menu">
           {options.map((option) => (
-            <button className="main-nav__option" type="button" key={option}>
+            <button
+              className="main-nav__option"
+              type="button"
+              key={option}
+              onClick={() => setOpen(false)}
+              role="menuitem"
+            >
               {option}
             </button>
           ))}

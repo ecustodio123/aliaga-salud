@@ -10,7 +10,10 @@ function TestimonialsBlock() {
   return (
     <section className="surface-section">
       <Container>
-        <SectionHeading title={t("home.testimonialsBlock.title")} description={t("home.testimonialsBlock.description")} />
+        <SectionHeading
+          title={t("home.testimonialsBlock.title")}
+          description={t("home.testimonialsBlock.description")}
+        />
         <div className="card-grid three">
           {testimonials.map((item) => (
             <TestimonialCard

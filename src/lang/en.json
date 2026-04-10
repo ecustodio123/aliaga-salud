@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Landing Starter Kit"
+    "title": "Aliaga Salud"
   },
   "language": {
     "switchLabel": "Language",
@@ -8,7 +8,8 @@
     "es": "ES"
   },
   "logo": {
-    "subtitle": "Starter Landing Kit"
+    "word": "Aliaga Salud",
+    "subtitle": "Comprehensive Medical Center"
   },
   "header": {
     "homeAria": "Go to homepage",
@@ -16,60 +17,175 @@
   },
   "navigation": {
     "home": "Home",
-    "components": "Components",
-    "about": "About",
+    "specialties": "Specialties",
+    "staff": "Medical Team",
     "contact": "Contact"
   },
   "business": {
-    "phoneHref": "9737919770",
-    "phoneDisplay": "973-791-9770"
+    "phoneHref": "51995003560",
+    "phoneDisplay": "+51 995 003 560",
+    "whatsappHref": "https://wa.me/51995003560",
+    "whatsappDisplay": "WhatsApp: +51 995 003 560",
+    "address": "Ventanilla, Callao, Peru",
+    "schedule": "Mon-Sat 7:00 a.m. - 9:00 p.m."
   },
   "mainNav": {
     "categories": {
-      "skinConditions": "Skin Conditions",
-      "procedures": "Procedures",
-      "laserEnergy": "Laser & Energy",
-      "esthetics": "Esthetics"
+      "surgeryAndMedicine": "Surgery & Medicine",
+      "familyCare": "Family Care",
+      "recoveryAndSupport": "Recovery & Support"
     },
     "options": {
-      "option1": "Option 1",
-      "option2": "Option 2",
-      "option3": "Option 3",
-      "option4": "Option 4"
+      "generalMedicine": "General medicine",
+      "generalSurgery": "General surgery",
+      "gastroenterology": "Gastroenterology",
+      "neurology": "Neurology",
+      "pediatrics": "Pediatrics",
+      "gynecology": "Gynecology",
+      "psychology": "Psychology",
+      "preventiveCheckup": "Preventive checkup",
+      "traumatology": "Traumatology",
+      "rehabilitation": "Rehabilitation",
+      "labTests": "Clinical lab",
+      "telemedicine": "Telemedicine"
     }
   },
   "home": {
     "hero": {
-      "title": "Build premium landing pages faster with a reusable starter",
-      "description": "This white-label app includes routing, design tokens, responsive blocks, and reusable components ready to adapt for any business niche.",
-      "cta": "Start New Landing",
-      "imageAlt": "Starter hero"
+      "kicker": "Comprehensive medical care in Ventanilla",
+      "title": "We care for you, we care for everyone",
+      "description": "Aliaga Salud combines medical expertise, laparoscopic surgery, and human-centered care to address your health needs safely and on time.",
+      "ctaPrimary": "Book via WhatsApp",
+      "ctaSecondary": "View specialties",
+      "imageAlt": "Medical team assisting a patient",
+      "highlightsAria": "Clinic value points",
+      "highlights": {
+        "point1": "More than 30 years of local medical experience.",
+        "point2": "Care for children, adults, and seniors.",
+        "point3": "Diagnosis, treatment, and follow-up in one place."
+      }
+    },
+    "trustStats": {
+      "years": {
+        "value": "30+ years",
+        "label": "of clinical track record"
+      },
+      "patients": {
+        "value": "10k+",
+        "label": "patients served"
+      },
+      "specialties": {
+        "value": "8 areas",
+        "label": "of active specialties"
+      },
+      "support": {
+        "value": "Mon-Sat",
+        "label": "support and appointments"
+      }
     },
     "servicesBlock": {
-      "title": "Reusable Service Cards Carousel",
-      "description": "Autoplay + drag loop carousel that you can reuse in landing pages."
+      "title": "Specialties for your wellbeing",
+      "description": "Comprehensive medical coverage with specialists in diagnosis, treatment, and prevention."
+    },
+    "staffBlock": {
+      "title": "Medical Team",
+      "description": "A team committed to close, ethical, and evidence-based care."
     },
     "testimonialsBlock": {
-      "title": "Testimonials Section",
-      "description": "Simple reusable card grid for social proof."
+      "title": "Trusted by our patients",
+      "description": "Real stories of care and recovery at Aliaga Salud."
+    }
+  },
+  "specialties": {
+    "title": "Medical specialties",
+    "description": "We provide key specialties for preventive visits, surgical cases, and follow-up care.",
+    "primaryCta": "Request assessment",
+    "secondaryCta": "Go to contact",
+    "carePath": {
+      "title": "Clinical care path",
+      "description": "Our process prioritizes clear timing, accurate diagnosis, and continuous support.",
+      "step1": {
+        "index": "Step 1",
+        "title": "Triage and first evaluation",
+        "description": "We review symptoms, history, and clinical signs to route your case from the first touchpoint."
+      },
+      "step2": {
+        "index": "Step 2",
+        "title": "Diagnosis and plan",
+        "description": "We define tests, treatment, and responsible specialist based on medical priority."
+      },
+      "step3": {
+        "index": "Step 3",
+        "title": "Treatment or procedure",
+        "description": "We perform outpatient treatment or surgery following strict clinical safety protocols."
+      },
+      "step4": {
+        "index": "Step 4",
+        "title": "Follow-up and control",
+        "description": "Post-care controls ensure favorable progress and prevent relapse."
+      }
+    }
+  },
+  "staff": {
+    "title": "Aliaga Salud medical team",
+    "description": "Professionals experienced in general medicine, surgery, and complementary specialties for complete care.",
+    "primaryCta": "Book appointment",
+    "secondaryCta": "Review specialties"
+  },
+  "contact": {
+    "title": "Contact and appointments",
+    "description": "Book your consultation by WhatsApp or leave your details and we will contact you shortly.",
+    "faq": {
+      "title": "Frequently asked questions",
+      "description": "Common questions before your visit.",
+      "faq1": {
+        "question": "Do you handle emergencies?",
+        "answer": "We provide initial urgent guidance and stabilization; complex cases are promptly referred if needed."
+      },
+      "faq2": {
+        "question": "How do I book my first consultation?",
+        "answer": "You can message us on WhatsApp or submit this page form. Our team confirms schedule and specialty."
+      },
+      "faq3": {
+        "question": "What documents should I bring?",
+        "answer": "Bring ID, previous prescriptions or tests, and your current medication list for a faster assessment."
+      },
+      "faq4": {
+        "question": "Do you treat children and seniors?",
+        "answer": "Yes. We provide pediatrics and senior-focused care with differentiated protocols."
+      }
     }
   },
   "contactBlock": {
-    "title": "Contact Block",
-    "description": "Reusable contact section with form + map.",
+    "title": "Schedule your appointment",
+    "description": "Leave your details and we will help you book care according to your needs.",
+    "panelTitle": "Care channels",
     "fields": {
-      "fullName": "Full Name*",
-      "phone": "Phone*",
-      "email": "Email*",
-      "interestedIn": "Interested in",
-      "message": "Message"
+      "fullName": "Full name*",
+      "phone": "Mobile*",
+      "email": "Email",
+      "specialty": "Specialty of interest",
+      "message": "Briefly describe your consultation"
     },
     "options": {
-      "option1": "Option 1",
-      "option2": "Option 2"
+      "option1": "General Medicine",
+      "option2": "General Surgery",
+      "option3": "Traumatology"
     },
-    "submit": "Submit",
-    "mapTitle": "Demo map"
+    "channels": {
+      "phoneLabel": "Phone",
+      "whatsappLabel": "WhatsApp",
+      "addressLabel": "Address",
+      "scheduleLabel": "Schedule"
+    },
+    "submit": "Request contact",
+    "sending": "Sending...",
+    "feedback": {
+      "success": "Message sent successfully. We will contact you soon.",
+      "error": "Message could not be sent. Please try again.",
+      "configError": "EmailJS environment variables are missing."
+    },
+    "mapTitle": "Aliaga Salud location"
   },
   "pages": {
     "components": {
@@ -80,56 +196,95 @@
       "buttonOutline": "Outline Button"
     },
     "notFound": {
-      "title": "404 - Page Not Found",
-      "description": "This route is not available in the starter kit.",
-      "backHome": "Back Home"
+      "title": "404 - Page not found",
+      "description": "The requested route does not exist in this site.",
+      "backHome": "Back to home"
     }
   },
   "footer": {
-    "title": "Landing Starter Kit",
-    "description": "Reusable React + Tailwind + Router foundation for fast client delivery.",
+    "title": "Aliaga Salud",
+    "description": "Comprehensive medical center focused on prevention, diagnosis, and treatment with human and professional care.",
     "highlights": {
-      "cloneBuild": "Ready for clone-and-build workflow",
-      "tokenBased": "Token-based theming",
-      "responsive": "Responsive defaults"
+      "experience": "30+ years of clinical experience",
+      "response": "Fast WhatsApp response",
+      "multispecialty": "Multiple specialties in one place"
     },
-    "rights": "© 2026 Landing Starter Kit. Built for reusable freelance workflows."
+    "rights": "© 2026 Aliaga Salud. All rights reserved."
   },
   "catalog": {
     "services": {
-      "landingArchitecture": {
-        "title": "Landing Architecture",
-        "description": "Prebuilt sections to launch polished one-page and multipage websites."
+      "generalMedicine": {
+        "title": "General medicine",
+        "description": "Comprehensive evaluation for common symptoms, chronic control, and preventive checkups."
       },
-      "designTokens": {
-        "title": "Design Tokens",
-        "description": "Centralized colors and spacing to rebrand projects in minutes."
+      "generalSurgery": {
+        "title": "General surgery",
+        "description": "Safe surgical treatment for hernias, gallbladder, and minor or major procedures."
       },
-      "reusableComponents": {
-        "title": "Reusable Components",
-        "description": "Buttons, cards, headers, and content blocks built for speed."
+      "traumatology": {
+        "title": "Traumatology",
+        "description": "Diagnosis and management of muscular, joint, and bone injuries with functional focus."
       },
-      "responsiveFirst": {
-        "title": "Responsive First",
-        "description": "Layouts tuned for mobile, tablet, and desktop from day one."
+      "pediatrics": {
+        "title": "Pediatrics",
+        "description": "Growth monitoring, common pediatric disease care, and child development follow-up."
       },
-      "showcasePage": {
-        "title": "Showcase Page",
-        "description": "A /components view to audit reusable UI before project delivery."
+      "gynecology": {
+        "title": "Gynecology",
+        "description": "Preventive and specialized female health care across every life stage."
+      },
+      "neurology": {
+        "title": "Neurology",
+        "description": "Assessment of headaches, dizziness, neuropathies, and neurological disorders with personalized approach."
+      },
+      "gastroenterology": {
+        "title": "Gastroenterology",
+        "description": "Management of gastritis, irritable bowel, and digestive conditions with clinical follow-up."
+      },
+      "psychology": {
+        "title": "Psychology",
+        "description": "Emotional and therapeutic support for anxiety, stress, and mental wellbeing."
+      }
+    },
+    "staff": {
+      "stalinAliaga": {
+        "name": "Dr. Stalin Aliaga",
+        "role": "General Surgeon",
+        "bio": "Over 30 years of experience in general and laparoscopic surgery with focus on safety and rapid recovery."
+      },
+      "raulAliaga": {
+        "name": "Dr. Raúl Aliaga",
+        "role": "Surgery and Comprehensive Care",
+        "bio": "Clinical care focused on surgical procedures and continuous patient follow-up."
+      },
+      "jaimeBecerra": {
+        "name": "Dr. Jaime Becerra",
+        "role": "Gastroenterology",
+        "bio": "Specialist in digestive disease diagnosis and treatment, with focus on prevention and personalized follow-up."
+      },
+      "karlaMendoza": {
+        "name": "Dr. Karla Mendoza",
+        "role": "Pediatrics",
+        "bio": "Specialist in pediatric checkups, prevention, and treatment of frequent childhood conditions."
+      },
+      "joseParedes": {
+        "name": "Dr. José Paredes",
+        "role": "Traumatology",
+        "bio": "Focused on musculoskeletal pain, sports injuries, and functional recovery plans."
       }
     },
     "testimonials": {
-      "projectOwner": {
-        "name": "Project Owner",
-        "text": "The starter kit reduced setup time and gave us a clean structure for future client pages."
+      "gloriaR": {
+        "name": "Gloria R.",
+        "text": "They treated me with patience and clarity. My issue was solved in just a few visits."
       },
-      "frontendDeveloper": {
-        "name": "Frontend Developer",
-        "text": "Reusable blocks and tokens made branding changes extremely fast."
+      "diegoT": {
+        "name": "Diego T.",
+        "text": "The surgical process was organized and clearly explained step by step. Great experience."
       },
-      "freelanceTeam": {
-        "name": "Freelance Team",
-        "text": "We now clone one repo and ship customized landings in a fraction of the time."
+      "andreaM": {
+        "name": "Andrea M.",
+        "text": "They always reply quickly on WhatsApp, and the medical team is warm and professional."
       }
     }
   }

@@ -1,3 +1,4 @@
+import logoImage from "../../assets/img/AliagaSaludLogoClean.png";
 import { useI18n } from "../../lang/i18n";
 
 function BrandLogo({ className = "" }) {
@@ -5,10 +6,7 @@ function BrandLogo({ className = "" }) {
 
   return (
     <div className={`brand-logo ${className}`.trim()}>
-      <p className="brand-logo__word">
-        S<span className="accent">O</span>MA
-      </p>
-      <p className="brand-logo__sub">{t("logo.subtitle")}</p>
+      <img className="brand-logo__image" src={logoImage} alt={t("logo.word")} />
     </div>
   );
 }

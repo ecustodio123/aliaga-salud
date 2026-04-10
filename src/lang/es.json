@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Kit Inicial de Landing"
+    "title": "Aliaga Salud"
   },
   "language": {
     "switchLabel": "Idioma",
@@ -8,7 +8,8 @@
     "es": "ES"
   },
   "logo": {
-    "subtitle": "Kit Inicial de Landing"
+    "word": "Aliaga Salud",
+    "subtitle": "Centro Médico Integral"
   },
   "header": {
     "homeAria": "Ir al inicio",
@@ -16,60 +17,175 @@
   },
   "navigation": {
     "home": "Inicio",
-    "components": "Componentes",
-    "about": "Acerca",
+    "specialties": "Especialidades",
+    "staff": "Staff Médico",
     "contact": "Contacto"
   },
   "business": {
-    "phoneHref": "9737919770",
-    "phoneDisplay": "973-791-9770"
+    "phoneHref": "51995003560",
+    "phoneDisplay": "+51 995 003 560",
+    "whatsappHref": "https://wa.me/51995003560",
+    "whatsappDisplay": "WhatsApp: +51 995 003 560",
+    "address": "Ventanilla, Callao, Perú",
+    "schedule": "Lun-Sáb 7:00 a.m. - 9:00 p.m."
   },
   "mainNav": {
     "categories": {
-      "skinConditions": "Condiciones de la piel",
-      "procedures": "Procedimientos",
-      "laserEnergy": "Láser y Energía",
-      "esthetics": "Estética"
+      "surgeryAndMedicine": "Cirugía y Medicina",
+      "familyCare": "Cuidado Familiar",
+      "recoveryAndSupport": "Recuperación y Soporte"
     },
     "options": {
-      "option1": "Opción 1",
-      "option2": "Opción 2",
-      "option3": "Opción 3",
-      "option4": "Opción 4"
+      "generalMedicine": "Medicina general",
+      "generalSurgery": "Cirugía general",
+      "gastroenterology": "Gastroenterología",
+      "neurology": "Neurología",
+      "pediatrics": "Pediatría",
+      "gynecology": "Ginecología",
+      "psychology": "Psicología",
+      "preventiveCheckup": "Chequeo preventivo",
+      "traumatology": "Traumatología",
+      "rehabilitation": "Rehabilitación",
+      "labTests": "Laboratorio clínico",
+      "telemedicine": "Telemedicina"
     }
   },
   "home": {
     "hero": {
-      "title": "Construye landing pages premium más rápido con un starter reutilizable",
-      "description": "Esta app white-label incluye enrutamiento, tokens de diseño, bloques responsive y componentes reutilizables listos para cualquier nicho de negocio.",
-      "cta": "Iniciar Nuevo Landing",
-      "imageAlt": "Hero del starter"
+      "kicker": "Atención médica integral en Ventanilla",
+      "title": "Cuidamos de ti, cuidamos de todos",
+      "description": "Clínica Aliaga Salud combina experiencia médica, cirugía laparoscópica y atención humana para resolver tus necesidades de salud de forma segura y oportuna.",
+      "ctaPrimary": "Agendar por WhatsApp",
+      "ctaSecondary": "Ver especialidades",
+      "imageAlt": "Equipo médico atendiendo a paciente",
+      "highlightsAria": "Puntos de valor de la clínica",
+      "highlights": {
+        "point1": "Más de 30 años de experiencia médica en la zona.",
+        "point2": "Atención para niños, adultos y adultos mayores.",
+        "point3": "Diagnóstico, tratamiento y seguimiento en un solo lugar."
+      }
+    },
+    "trustStats": {
+      "years": {
+        "value": "+30 años",
+        "label": "de trayectoria clínica"
+      },
+      "patients": {
+        "value": "10k+",
+        "label": "pacientes atendidos"
+      },
+      "specialties": {
+        "value": "8 áreas",
+        "label": "de especialidad activa"
+      },
+      "support": {
+        "value": "Lun-Sáb",
+        "label": "soporte y citas"
+      }
     },
     "servicesBlock": {
-      "title": "Carrusel Reutilizable de Tarjetas de Servicio",
-      "description": "Carrusel con autoplay y arrastre que puedes reutilizar en páginas landing."
+      "title": "Especialidades para tu bienestar",
+      "description": "Cobertura médica integral con especialistas en diagnóstico, tratamiento y prevención."
+    },
+    "staffBlock": {
+      "title": "Staff Médico",
+      "description": "Un equipo comprometido con atención cercana, ética y basada en evidencia."
     },
     "testimonialsBlock": {
-      "title": "Sección de Testimonios",
-      "description": "Grid simple y reutilizable para prueba social."
+      "title": "Confianza de nuestros pacientes",
+      "description": "Historias reales de atención y recuperación en Aliaga Salud."
+    }
+  },
+  "specialties": {
+    "title": "Especialidades médicas",
+    "description": "Contamos con especialidades clave para resolver desde consultas preventivas hasta casos quirúrgicos y de seguimiento.",
+    "primaryCta": "Solicitar evaluación",
+    "secondaryCta": "Ir a contacto",
+    "carePath": {
+      "title": "Ruta de atención clínica",
+      "description": "Nuestro proceso prioriza tiempos claros, diagnóstico preciso y acompañamiento continuo.",
+      "step1": {
+        "index": "Paso 1",
+        "title": "Triaje y evaluación inicial",
+        "description": "Recibimos tus síntomas, antecedentes y signos clínicos para orientar tu caso desde el primer contacto."
+      },
+      "step2": {
+        "index": "Paso 2",
+        "title": "Diagnóstico y plan",
+        "description": "Definimos exámenes, tratamiento y especialista responsable según prioridad médica."
+      },
+      "step3": {
+        "index": "Paso 3",
+        "title": "Tratamiento o procedimiento",
+        "description": "Ejecutamos el tratamiento ambulatorio o quirúrgico con protocolo de seguridad clínica."
+      },
+      "step4": {
+        "index": "Paso 4",
+        "title": "Control y seguimiento",
+        "description": "Realizamos controles posteriores para asegurar evolución favorable y prevención de recaídas."
+      }
+    }
+  },
+  "staff": {
+    "title": "Equipo médico Aliaga Salud",
+    "description": "Profesionales con experiencia en medicina general, cirugía y especialidades complementarias para un cuidado integral.",
+    "primaryCta": "Reservar cita",
+    "secondaryCta": "Revisar especialidades"
+  },
+  "contact": {
+    "title": "Contacto y citas",
+    "description": "Agenda tu consulta por WhatsApp o déjanos tus datos y te contactamos en el menor tiempo posible.",
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Resolvemos dudas comunes antes de tu cita.",
+      "faq1": {
+        "question": "¿Atienden emergencias?",
+        "answer": "Brindamos orientación inicial y estabilización en casos urgentes; según la complejidad se coordina referencia inmediata."
+      },
+      "faq2": {
+        "question": "¿Cómo reservo mi primera consulta?",
+        "answer": "Puedes escribir por WhatsApp o enviar el formulario de esta página. El equipo confirma horario y especialidad."
+      },
+      "faq3": {
+        "question": "¿Qué documentos debo llevar?",
+        "answer": "DNI, recetas o exámenes previos y una lista de medicamentos actuales para agilizar la evaluación médica."
+      },
+      "faq4": {
+        "question": "¿Atienden niños y adultos mayores?",
+        "answer": "Sí. Tenemos pediatría y especialistas para adultos mayores, con protocolos de atención diferenciada."
+      }
     }
   },
   "contactBlock": {
-    "title": "Bloque de Contacto",
-    "description": "Sección de contacto reutilizable con formulario y mapa.",
+    "title": "Agenda tu cita",
+    "description": "Déjanos tus datos y te ayudamos a programar la atención según tu necesidad.",
+    "panelTitle": "Canales de atención",
     "fields": {
-      "fullName": "Nombre Completo*",
-      "phone": "Teléfono*",
-      "email": "Correo Electrónico*",
-      "interestedIn": "Interesado en",
-      "message": "Mensaje"
+      "fullName": "Nombre completo*",
+      "phone": "Celular*",
+      "email": "Correo electrónico",
+      "specialty": "Especialidad de interés",
+      "message": "Cuéntanos brevemente tu consulta"
     },
     "options": {
-      "option1": "Opción 1",
-      "option2": "Opción 2"
+      "option1": "Medicina General",
+      "option2": "Cirugía General",
+      "option3": "Traumatología"
     },
-    "submit": "Enviar",
-    "mapTitle": "Mapa demo"
+    "channels": {
+      "phoneLabel": "Teléfono",
+      "whatsappLabel": "WhatsApp",
+      "addressLabel": "Dirección",
+      "scheduleLabel": "Horario"
+    },
+    "submit": "Solicitar contacto",
+    "sending": "Enviando...",
+    "feedback": {
+      "success": "Mensaje enviado correctamente. Te contactaremos pronto.",
+      "error": "No se pudo enviar el mensaje. Inténtalo nuevamente.",
+      "configError": "Falta configurar EmailJS en variables de entorno."
+    },
+    "mapTitle": "Ubicación de Aliaga Salud"
   },
   "pages": {
     "components": {
@@ -80,56 +196,95 @@
       "buttonOutline": "Botón Outline"
     },
     "notFound": {
-      "title": "404 - Página No Encontrada",
-      "description": "Esta ruta no está disponible en el starter kit.",
-      "backHome": "Volver al Inicio"
+      "title": "404 - Página no encontrada",
+      "description": "La ruta solicitada no existe en este sitio.",
+      "backHome": "Volver al inicio"
     }
   },
   "footer": {
-    "title": "Kit Inicial de Landing",
-    "description": "Base reutilizable con React + Tailwind + Router para entregar proyectos de clientes más rápido.",
+    "title": "Aliaga Salud",
+    "description": "Centro médico integral enfocado en prevención, diagnóstico y tratamiento con atención humana y profesional.",
     "highlights": {
-      "cloneBuild": "Listo para flujo clonar-y-construir",
-      "tokenBased": "Tematización basada en tokens",
-      "responsive": "Responsive por defecto"
+      "experience": "Más de 30 años de experiencia clínica",
+      "response": "Respuesta rápida por WhatsApp",
+      "multispecialty": "Especialidades médicas en un solo lugar"
     },
-    "rights": "© 2026 Kit Inicial de Landing. Construido para flujos freelance reutilizables."
+    "rights": "© 2026 Aliaga Salud. Todos los derechos reservados."
   },
   "catalog": {
     "services": {
-      "landingArchitecture": {
-        "title": "Arquitectura de Landing",
-        "description": "Secciones preconstruidas para lanzar sitios de una o múltiples páginas con acabado profesional."
+      "generalMedicine": {
+        "title": "Medicina general",
+        "description": "Evaluación integral para síntomas frecuentes, control de enfermedades y chequeos preventivos."
       },
-      "designTokens": {
-        "title": "Tokens de Diseño",
-        "description": "Colores y espaciado centralizados para rebranding en minutos."
+      "generalSurgery": {
+        "title": "Cirugía general",
+        "description": "Tratamiento quirúrgico seguro para hernias, vesícula y procedimientos de cirugía menor y mayor."
       },
-      "reusableComponents": {
-        "title": "Componentes Reutilizables",
-        "description": "Botones, tarjetas, headers y bloques de contenido construidos para velocidad."
+      "traumatology": {
+        "title": "Traumatología",
+        "description": "Diagnóstico y manejo de lesiones musculares, articulares y óseas con enfoque funcional."
       },
-      "responsiveFirst": {
-        "title": "Responsive Primero",
-        "description": "Layouts ajustados para móvil, tablet y desktop desde el día uno."
+      "pediatrics": {
+        "title": "Pediatría",
+        "description": "Control de crecimiento, tratamiento de enfermedades comunes y seguimiento del desarrollo infantil."
       },
-      "showcasePage": {
-        "title": "Página de Showcase",
-        "description": "Una vista /components para auditar UI reutilizable antes de la entrega."
+      "gynecology": {
+        "title": "Ginecología",
+        "description": "Atención preventiva y especializada para salud femenina en todas las etapas de vida."
+      },
+      "neurology": {
+        "title": "Neurología",
+        "description": "Evaluación de cefaleas, mareos, neuropatías y trastornos neurológicos con abordaje clínico personalizado."
+      },
+      "gastroenterology": {
+        "title": "Gastroenterología",
+        "description": "Manejo de gastritis, colon irritable y patologías digestivas con tratamiento clínico y seguimiento."
+      },
+      "psychology": {
+        "title": "Psicología",
+        "description": "Acompañamiento emocional y terapéutico para ansiedad, estrés y bienestar mental."
+      }
+    },
+    "staff": {
+      "stalinAliaga": {
+        "name": "Dr. Stalin Aliaga",
+        "role": "Cirujano General",
+        "bio": "Más de 30 años de experiencia en cirugía general y laparoscópica, con enfoque en seguridad y recuperación rápida."
+      },
+      "raulAliaga": {
+        "name": "Dr. Raúl Aliaga",
+        "role": "Cirugía y Atención Integral",
+        "bio": "Atención clínica orientada a procedimientos quirúrgicos y seguimiento continuo del paciente."
+      },
+      "jaimeBecerra": {
+        "name": "Dr. Jaime Becerra",
+        "role": "Gastroenterología",
+        "bio": "Especialista en diagnóstico y tratamiento de enfermedades digestivas, con enfoque en prevención y seguimiento personalizado."
+      },
+      "karlaMendoza": {
+        "name": "Dra. Karla Mendoza",
+        "role": "Pediatría",
+        "bio": "Especialista en control infantil, prevención y manejo de patologías pediátricas frecuentes."
+      },
+      "joseParedes": {
+        "name": "Dr. José Paredes",
+        "role": "Traumatología",
+        "bio": "Enfoque en dolor osteomuscular, lesiones deportivas y recuperación funcional de pacientes."
       }
     },
     "testimonials": {
-      "projectOwner": {
-        "name": "Dueño del Proyecto",
-        "text": "El starter kit redujo tiempos de setup y nos dio una estructura limpia para futuras páginas de clientes."
+      "gloriaR": {
+        "name": "Gloria R.",
+        "text": "Me atendieron con mucha paciencia y claridad. Me ayudaron a resolver mi problema en pocas consultas."
       },
-      "frontendDeveloper": {
-        "name": "Desarrollador Frontend",
-        "text": "Los bloques reutilizables y tokens hicieron que los cambios de branding fueran muy rápidos."
+      "diegoT": {
+        "name": "Diego T.",
+        "text": "El proceso quirúrgico fue ordenado y me explicaron todo paso a paso. Muy buena experiencia."
       },
-      "freelanceTeam": {
-        "name": "Equipo Freelance",
-        "text": "Ahora clonamos un solo repositorio y entregamos landings personalizados en una fracción del tiempo."
+      "andreaM": {
+        "name": "Andrea M.",
+        "text": "Siempre responden rápido por WhatsApp y el trato del personal médico es muy humano."
       }
     }
   }
